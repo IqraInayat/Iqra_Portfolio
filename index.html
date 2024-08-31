@@ -1,0 +1,508 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <!-- Css -->
+    <link rel="stylesheet" href="assets/css/style.css">
+    <!-- Favicon -->
+    <link rel="shortcut icon" href="assets/images/favicon-16x16.png" type="image/x-icon">
+    <!-- Remix-Icon -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/remixicon/4.2.0/remixicon.css"
+        referrerpolicy="no-referrer" />
+    <!-- Swiper Css -->
+    <link rel="stylesheet" href="assets/css/swiper-bundle.min.css">
+    <!-- Boxicon -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/boxicons@latest/css/boxicons.min.css">
+    <script src="https://cdn.jsdelivr.net/npm/marked/marked.min.js"></script>
+
+    <title>SaraDeveloper</title>
+</head>
+
+<body>
+
+    <!-- Header -->
+    <header class="header" id="header">
+        <nav class="nav container">
+            <a href="index.html" class="nav__logo">SaraDeveloper</a>
+
+            <div class="nav__menu" id="nav-menu">
+                <ul class="nav__list">
+                    <li>
+                        <a href="#home" class="nav__link active-link">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="#work" class="nav__link">Work</a>
+                    </li>
+
+                    <li>
+                        <a href="#info" class="nav__link">My Info</a>
+                    </li>
+
+                    <li>
+                        <a href="#services" class="nav__link">Services</a>
+                    </li>
+
+                    <li>
+                        <a href="#blogs" class="nav__link">Blogs</a>
+                    </li>
+
+                    <li>
+                        <a href="#contact" class="nav__link">Contact Me</a>
+                    </li>
+                </ul>
+
+                <!-- clsoe Button -->
+                <div class="nav__close" id="nav-close">
+                    <i class="ri-close-large-line"></i>
+                </div>
+            </div>
+
+            <!-- Toggle Button -->
+            <div class="nav__toggle" id="nav-toggle">
+                <i class="ri-menu-line"></i>
+            </div>
+        </nav>
+    </header>
+
+    <!-- MAIN -->
+    <main class="main" id="main">
+        <!-- Home Section -->
+        <section class="home section" id="home">
+            <div class="home__container container grid">
+                <img src="assets/images/download__3.png" alt="image" class="home__img img-fluid rounded-circle shadow-sm">
+                <div class="home__data">
+                    <h3>Hi, I'm </h3>
+                    <h2 class="home__name">Iqra <br> Inayat</h2>
+                    <h3 class="home__profession">Full Stack Web Developer</h3>
+                    <p class="home__description">I develop websites for small businesses, e-commerce, portfolios, blogs, 
+                        and personal projects at an affordable cost.</p>
+                </div>
+                <a href="#work" class="home__scroll">
+                    <div class="home__scroll-box">
+                        <i class="ri-arrow-down-line"></i>
+                    </div>
+
+                    <span class="home__scroll-text">My Portfolio</span>
+                </a>
+            </div>
+        </section>
+
+        <!-- Work/Projects -->
+        <section class="work section" id="work">
+            <h2 class="section__title">RECENT WORKS</h2>
+            <p class="section_description">Here is a showcase of my latest web development projects, including websites
+                for businesses, e-commerce, portfolios, and more.</p>
+
+            <div class="work__container container grid">
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Coffee Website</h2>
+                        <p class="work__description">
+                            A visually appealing coffee website designed for exploring and showcasing a range of premium
+                            coffee blends.
+                        </p>
+
+                        <img src="assets/images/work_1.PNG" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Cosmo Junkie</h2>
+                        <p class="work__description">
+                            Designed and developed a sleek portfolio website to showcase a diverse range of projects and
+                            highlight professional skills.
+                        </p>
+
+                        <img src="assets/images/work_2.PNG" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">E commerce Website</h2>
+                        <p class="work__description">
+                            An e-commerce website for a fashion brand, showcasing a wide variety of stylish clothing
+                            options.
+                        </p>
+
+                        <img src="assets/images/work_3.PNG" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+
+                <article class="work__card">
+                    <a href="#" target="_blank" class="work__link">
+                        <h2 class="work__title">Fabric Store</h2>
+                        <p class="work__description">
+                            A fabric store website with an inventory management system for easy browsing and purchasing
+                            of textiles.
+                        </p>
+
+                        <img src="assets/images/work_5.PNG" alt="image" class="work__img">
+
+                        <i class="ri-arrow-right-line"></i>
+                    </a>
+                </article>
+            </div>
+        </section>
+
+        <!-- Info -->
+        <section class="info section" id="info">
+            <h2 class="section__title">ABOUT ME</h2>
+
+            <div class="info__container container grid">
+                <!-- About Me -->
+                <div class="about grid">
+                    <div class="about__content">
+                        <h3 class="info__title">
+                            Iqra Inayat
+                        </h3>
+
+                        <p class="about__description">
+                            I'm a passionate full-stack developer with expertise in creating <b>websites with beautiful
+                                interfaces</b> and seamless user experiences. With skills in both front-end and back-end
+                            technologies, I develop dynamic and responsive solutions that meet client needs and drive
+                            engaging interactions. My focus on <b> web development </b> ensures that every project is
+                            visually appealing and functionally robust.
+                        </p>
+
+                        <a href="#banner" class="button about__button">Contact Me</a>
+                    </div>
+
+                    <img src="assets/images/download__3.png" alt="image" class="about__img">
+                </div>
+            </div>
+        </section>
+
+        <!-- Skills -->
+        <section class="skills section" id="skills">
+
+            <h3 class="section__title">MY SKILLS</h3>
+            <p class="section_description">
+                I have a strong foundation in both front-end and back-end technologies, with expertise in the following:
+            </p>
+
+            <div class="skills__content container grid">
+                <div class="skills__box">
+                    <img src="assets/images/html-1.svg" alt="image" class="skills__img">
+                    <span class="skills__name">HTML</span>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets/images/css-3.svg" alt="image" class="skills__img">
+                    <span class="skills__name">CSS</span>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets/images/javascript-1.svg" alt="image" class="skills__img">
+                    <span class="skills__name">JavaScript</span>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets/images/info-git.svg" alt="image" class="skills__img">
+                    <span class="skills__name">Git</span>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets/images/info-github.svg" alt="image" class="skills__img">
+                    <span class="skills__name">GitHub</span>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets/images/php-icon.svg" alt="image" class="skills__img">
+                    <span class="skills__name">PHP</span>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets/images/bootstrap-5-1.svg" alt="image" class="skills__img">
+                    <span class="skills__name">Bootstrap</span>
+                </div>
+
+                <div class="skills__box">
+                    <img src="assets/images/laravel-2.svg" alt="image" class="skills__img">
+                    <span class="skills__name">Laravel</span>
+                </div>
+            </div>
+        </section>
+
+        <!-- Services -->
+        <section class="services section" id="services">
+            <h2 class="section__title">SERVICES</h2>
+            <p class="section_description">
+                These are the services I offer, designed to meet your web development needs and bring your projects to
+                life.
+            </p>
+
+            <div class="services__container container grid">
+                <article class="services__card">
+                    <i class="ri-code-box-line services__icon"></i>
+                    <h3 class="services__title">Personel Web Development</h3>
+                    <p class="services__description">Designing custom personal websites that grow with you. Combining
+                        front-end and back-end skills to deliver seamless, high-performance solutions tailored to your
+                        unique requirements.</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-pencil-ruler-2-line services__icon"></i>
+                    <h3 class="services__title">Business Website</h3>
+                    <p class="services__description">Developing customized business websites to elevate your brand. My
+                        expertise in both front-end and back-end technologies ensures a professional, scalable platform
+                        that supports your company's objectives.</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-layout-2-line services__icon"></i>
+                    <h3 class="services__title">Corporate Website</h3>
+                    <p class="services__description">Designing sophisticated corporate websites that enhance your
+                        company's image. My integrated approach provides a seamless user experience and robust
+                        functionality tailored to your corporate needs.</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-code-s-slash-line services__icon"></i>
+                    <h3 class="services__title">E-Commerce Website</h3>
+                    <p class="services__description">Building intuitive e-commerce websites that drive sales and
+                        engagement. Combining advanced front-end design with secure back-end systems to create a
+                        powerful online store experience.</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-code-s-slash-line services__icon"></i>
+                    <h3 class="services__title">Landing Page Website</h3>
+                    <p class="services__description">Crafting compelling landing pages that convert visitors into leads.
+                        Focused on creating engaging, high-impact designs that drive action and achieve your marketing
+                        goals.</p>
+                </article>
+
+                <article class="services__card">
+                    <i class="ri-code-s-slash-line services__icon"></i>
+                    <h3 class="services__title">Business Blog Website</h3>
+                    <p class="services__description">Creating dynamic business blog websites to showcase your expertise
+                        and connect with your audience. My solutions blend engaging design with effective content
+                        management features to boost your online presence.</p>
+                </article>
+            </div>
+        </section>
+
+        <!-- TESTIMONIAL  -->
+        <section class="testimonial section" id="testimonials">
+            <h2 class="section__title">TESTIMONIALS</h2>
+
+            <div class="testimonial__container container grid">
+                <div class="swiper testimonial-swiper">
+                    <div class="swiper-wrapper">
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                I'm very happy with the website she created. It looks fantastic and works well, fitting
+                                perfectly with my marketing plans
+                            </p>
+                            <h3 class="testimonial__date">January 27. 2024</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/images/testimonial1.jpg" alt="" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Muhammad Kamran</span>
+                                    <span class="testimonial__perfil-detail">Social Media Manager</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                Working with Iqra was great! She built a beautiful website for my clothing store that
+                                really shows off my designs. I'm very happy with how it turned out and would recommend
+                                her to anyone.
+                            </p>
+                            <h3 class="testimonial__date">April 3. 2024</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/images/testimonial2.jpg" alt="" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Tehniat Fatima</span>
+                                    <span class="testimonial__perfil-detail">Fashion Designer</span>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="testimonial__card swiper-slide">
+                            <div class="testimonial__quote">
+                                <i class='bx bxs-quote-alt-left'></i>
+                            </div>
+                            <p class="testimonial__description">
+                                Iqra is super flexible, responsive, and detailed. She helped us launch an entirely new
+                                website—her module system is amazing. As someone who isn't an expert in managing a
+                                website, I'm glad I can rely on her for advice and best practices. Would highly
+                                recommend!”
+                            </p>
+                            <h3 class="testimonial__date">July 14. 2021</h3>
+
+                            <div class="testimonial__perfil">
+                                <img src="assets/images/testimonial3.jpg" alt="" class="testimonial__perfil-img">
+
+                                <div class="testimonial__perfil-data">
+                                    <span class="testimonial__perfil-name">Tauqeer Hussain</span>
+                                    <span class="testimonial__perfil-detail">Retailer</span>
+                                </div>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="swiper-pagination"></div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Blogs -->
+        <section class="blog section" id="blogs">
+            <h2 class="section__title">BLOGS</h2>
+
+            <div class="blog__container container grid" id="blog-container">
+                <!-- Content will be added here -->
+                
+            </div>
+        </section>
+
+        <!-- Banner -->
+        <section class="banner section" id="banner">
+            <div class="container grid">
+                <div class="banner__content">
+                    <h2 class="banner__title">Let's Work Together</h2>
+                    <p class="banner__text">I'm here to bring your ideas to life. Get in touch today to start your
+                        project.</p>
+                    <a href="https://wa.me/923285103648" class="button banner__button">📞 +92328-5103648</a>
+                </div>
+            </div>
+        </section>
+
+        <!-- contact -->
+        <section class="contact section" id="contact">
+            <h2 class="section__title">CONTACT ME</h2>
+            <p class="section_description">
+                Get in touch to discuss your project or ask any questions about my web development services.
+            </p>
+
+            <div class="contact__container container grid">
+                <form action="" class="contact__form grid" id="contact-form">
+                    <div class="contact__group grid">
+                        <input type="text" name="user_name" placeholder="Name" required class="contact__input">
+                        <input type="email" name="user_email" placeholder="Email" required class="contact__input">
+                    </div>
+
+                    <div class="contact__group grid">
+                        <input type="tel" name="user_number" placeholder="Phone Number" required
+                            class="contact__input">
+                        <select name="user_service" id="" required class="contact__input form_select">
+                            <option value="service">Select Service</option>
+                            <option value="Personal Website">Personal Website</option>
+                            <option value="Business Website">Business Website</option>
+                            <option value="Corporate Website">Corporate Website</option>
+                            <option value="E-commerce Website">E-commerce Website</option>
+                            <option value="Landing Page">Landing Page</option>
+                            <option value="Business Blog Website">Business Blog Website</option>
+                            <option value="Others">Others</option>
+                        </select>
+                    </div>
+
+                    <textarea name="user_message" id="" placeholder="Message" required
+                        class="contact__input contact__area"></textarea>
+
+                    <button type="submit" class="button contact__button">Send Message</button>
+
+                    <p class="contact__message" id="contact-message"></p>
+                </form>
+
+                <div class="contact__social grid">
+                    <a href="https://web.facebook.com/profile.php?id=61564765070715" target="_blank"
+                        class="contact__social-link">
+                        <i class="ri-facebook-circle-line"></i>
+                        <span>Facebook</span>
+                    </a>
+
+                    <a href="https://www.instagram.com/saradeveloper?utm_source=qr&igsh=MXJhMTVuazZjdWg0ZQ==" target="_blank" class="contact__social-link">
+                        <i class="ri-instagram-line"></i>
+                        <span>Instagram</span>
+                    </a>
+
+                    <a href="https://www.linkedin.com/in/sara-developer-7a05b9324?utm_source=share&utm_campaign=share_via&utm_content=profile&utm_medium=android_app+" target="_blank"
+                        class="contact__social-link">
+                        <i class="ri-linkedin-box-line"></i>
+                        <span>LinkedIn</span>
+                    </a>
+                    <a href="https://github.com/IqraInayat" target="_blank" class="contact__social-link">
+                        <i class="ri-github-fill"></i>
+                        <span>GitHub</span>
+                    </a>
+                </div>
+            </div>
+        </section>
+    </main>
+
+    <footer class="footer">
+        <div class="footer__container container grid">
+            <ul class="footer__links">
+                <li>
+                    <a href="#home" class="footer__link">Home</a>
+                </li>
+
+                <li>
+                    <a href="#work" class="footer__link">Work</a>
+                </li>
+
+                <li>
+                    <a href="#info" class="footer__link">Info</a>
+                </li>
+            </ul>
+
+            <span class="footer__copy">
+                &#169 All Rights Reserved By SaraDeveloper - Since 2023 .
+                <a href="privacy.html" class="policy__link">Privacy Policy</a> .
+                <a href="disclaimer.html" class="policy__link"> Disclaimer</a>
+            </span>
+        </div>
+    </footer>
+
+    <!-- Scroll Up -->
+    <a href="#" class="scrollup" id="scroll-up">
+        <i class="ri-arrow-up-line"></i>
+    </a>
+
+    <!-- JS -->
+    <!-- Scroll Reveal -->
+    <script src="assets/Js/scrollreveal.min.js"></script>
+
+    <!-- Email Js -->
+    <script src="https://cdn.jsdelivr.net/npm/@emailjs/browser@4/dist/email.min.js"></script>
+
+    <!-- Swiper Js -->
+    <script src="assets/Js/swiper-bundle.min.js"></script>
+
+    <!-- Marked.js for Markdown parsing -->
+    <!-- <script src="https://cdn.jsdelivr.net/npm/marked@4.3.0/marked.min.js"></script> -->
+     
+
+    <!-- Main Js -->
+    <script src="assets/Js/main.js"></script>
+
+    <!-- Blog Js -->
+    <script src="assets/Js/blog.js"></script>
+
+    <!-- post.js -->
+    <script src="assets/Js/post.js"></script>
+
+</body>
+
+</html>
