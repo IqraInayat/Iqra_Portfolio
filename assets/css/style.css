@@ -604,6 +604,42 @@ img {
 .blog__link:hover i{
     transform: translateX(.5rem);
 }
+.show-more-blogs {
+    display: block;
+    padding: 10px 20px;
+    text-align: center;
+    color: var(--text-color);
+    transition: all ease-in .2s;
+    border-radius: 5px;
+    margin-top: 20px;
+}
+
+.blog-footer {
+    margin-top: .5rem;
+}
+.show-more-blogs:hover {
+    color: var(--first-color);
+    text-decoration: underline;
+    transform: translateY(-.1rem);
+}
+
+/* BLOG PAGE */
+.blog__header {
+    width: 100%;
+    height: 100%; 
+    --container-color: rgba(30, 41, 85, 0.9); 
+    background: linear-gradient(var(--container-color), var(--container-color)),
+                url('/assets/images/blog_2.jpg') no-repeat center center;
+    background-size: cover; 
+    text-align: center;
+    font-weight: var(--font-bold);
+    margin-bottom: 5rem;
+    padding: 2.5rem 0;
+}
+.blog__header .blog__page__title {
+    font-size: 3rem;
+    margin-bottom: 1rem;
+}
 
 /* Post */
 .post {
