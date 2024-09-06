@@ -5,7 +5,7 @@ document.addEventListener('DOMContentLoaded', function() {
         'assets/markdown/first_post.md',
         'assets/markdown/how-to-write-a-code-in-html-css.md',
         'assets/markdown/test.md',
-        
+        'assets/markdown/how-to-create-a-website-on-godaddy.md'
     ];
     const maxBlogsToShow = 3;
 
