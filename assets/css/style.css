@@ -656,11 +656,21 @@ img {
     font-weight: var(--font-bold);
 }
 
-.post__container p {
+.post__content p {
     padding-top: 1rem;
 }
 .post__thumbnail {
     margin-top: 1rem;
+}
+.post__content h3 {
+    margin-top: 2rem;
+    font-size: 1.75rem;
+}
+.post__content ul li {
+    margin-bottom: 2rem;
+    word-spacing: .35rem;
+    font-size: 1.25rem;
+    line-height: 150%;
 }
 
 /* Banner */
@@ -816,7 +826,7 @@ select option {
     text-decoration: underline;
 }
 
-/* Post */
+/* POLICY */
 .policy {
     margin: 3rem 0 2rem;
 }
