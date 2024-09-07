@@ -2,10 +2,13 @@ document.addEventListener('DOMContentLoaded', function() {
     const isMainPage = document.getElementById('blog-container') !== null;
     const blogContainer = isMainPage ? document.getElementById('blog-container') : document.getElementById('all-blogs-container');
     const blogPosts = [
-        'assets/markdown/first_post.md',
-        'assets/markdown/how-to-write-a-code-in-html-css.md',
-        'assets/markdown/test.md',
-        'assets/markdown/how-to-create-a-website-on-godaddy.md'
+        'assets/markdown/how-to-create-a-website-for-free.md',
+        'assets/markdown/how-to-create-a-small-business-website.md',
+        'assets/markdown/importance-of-responsive-web-design.md',
+        'assets/markdown/how-to-create-a-website-on-godaddy.md',
+        'assets/markdown/how-to-optimize-website-performance-for-better-ux.md',
+        'assets/markdown/top-5-tools-for-front-end-web-developers.md',
+        'assets/markdown/how-to-use-flexbox-and-grid-to-create-responsive-layouts.md'
     ];
     const maxBlogsToShow = 3;
 
