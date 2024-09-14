@@ -8,7 +8,11 @@ document.addEventListener('DOMContentLoaded', function() {
         'assets/markdown/how-to-create-a-website-on-godaddy.md',
         'assets/markdown/how-to-optimize-website-performance-for-better-ux.md',
         'assets/markdown/top-5-tools-for-front-end-web-developers.md',
-        'assets/markdown/how-to-use-flexbox-and-grid-to-create-responsive-layouts.md'
+        'assets/markdown/how-to-use-flexbox-and-grid-to-create-responsive-layouts.md',
+        'assets/markdown/a-beginners-guide-to-seo-for-web-developers.md',
+        'assets/markdown/static-site-generators-explained-why-and-how-web-developers-should-use-them.md',
+        'assets/markdown/understanding-the-basics-of-web-security.md',
+        'assets/markdown/why-laravel-is-a-great-choice-for-web-application-development.md'
     ];
     const maxBlogsToShow = 3;
 
