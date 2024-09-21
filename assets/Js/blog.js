@@ -12,7 +12,9 @@ document.addEventListener('DOMContentLoaded', function() {
         'assets/markdown/a-beginners-guide-to-seo-for-web-developers.md',
         'assets/markdown/static-site-generators-explained-why-and-how-web-developers-should-use-them.md',
         'assets/markdown/understanding-the-basics-of-web-security.md',
-        'assets/markdown/why-laravel-is-a-great-choice-for-web-application-development.md'
+        'assets/markdown/why-laravel-is-a-great-choice-for-web-application-development.md',
+        'assets/markdown/top-10-web-design-trends-of-the-year.md',
+        'assets/markdown/how-to-choose-the-right-colors-for-your-website.md'
     ];
     const maxBlogsToShow = 3;
 
