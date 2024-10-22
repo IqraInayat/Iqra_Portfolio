@@ -14,7 +14,8 @@ document.addEventListener('DOMContentLoaded', function() {
         'assets/markdown/understanding-the-basics-of-web-security.md',
         'assets/markdown/why-laravel-is-a-great-choice-for-web-application-development.md',
         'assets/markdown/top-10-web-design-trends-of-the-year.md',
-        'assets/markdown/how-to-choose-the-right-colors-for-your-website.md'
+        'assets/markdown/how-to-choose-the-right-colors-for-your-website.md',
+        'assets/markdown/the-pros-and-cons-of-using-stock-images-in-web-design.md'
     ];
     const maxBlogsToShow = 3;
 
